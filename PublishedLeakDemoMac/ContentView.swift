@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var dataContainer: DataContainer
+    @StateObject var dataContainer: DataContainer = DataContainer()
 
     var body: some View {
 
         Button("Push this button to increase memory usage!") {
-            dataContainer.toggleSomeBoolean()
+            for _ in 0...20 {
+                dataContainer.someBoolean.toggle()
+            }
         }
         .padding()
     }
