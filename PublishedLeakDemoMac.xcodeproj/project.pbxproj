@@ -11,6 +11,7 @@
 		DC627ED825A0AB2C00C1DF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627ED725A0AB2C00C1DF33 /* ContentView.swift */; };
 		DC627EDA25A0AB2C00C1DF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC627ED925A0AB2C00C1DF33 /* Assets.xcassets */; };
 		DC627EDD25A0AB2C00C1DF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC627EDC25A0AB2C00C1DF33 /* Preview Assets.xcassets */; };
+		DC627EE725A0AB4100C1DF33 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627EE625A0AB4100C1DF33 /* DataContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DC627EDC25A0AB2C00C1DF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC627EDE25A0AB2C00C1DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC627EDF25A0AB2C00C1DF33 /* PublishedLeakDemoMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PublishedLeakDemoMac.entitlements; sourceTree = "<group>"; };
+		DC627EE625A0AB4100C1DF33 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		DC627ED425A0AB2C00C1DF33 /* PublishedLeakDemoMac */ = {
 			isa = PBXGroup;
 			children = (
+				DC627EE625A0AB4100C1DF33 /* DataContainer.swift */,
 				DC627ED525A0AB2C00C1DF33 /* PublishedLeakDemoMacApp.swift */,
 				DC627ED725A0AB2C00C1DF33 /* ContentView.swift */,
 				DC627ED925A0AB2C00C1DF33 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				DC627ED825A0AB2C00C1DF33 /* ContentView.swift in Sources */,
 				DC627ED625A0AB2C00C1DF33 /* PublishedLeakDemoMacApp.swift in Sources */,
+				DC627EE725A0AB4100C1DF33 /* DataContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

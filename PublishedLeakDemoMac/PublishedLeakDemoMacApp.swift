@@ -12,6 +12,7 @@ struct PublishedLeakDemoMacApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DataContainer())
         }
     }
 }
